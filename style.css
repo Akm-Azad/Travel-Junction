@@ -1,0 +1,118 @@
+*{
+margin: 0;
+padding: 0;
+}
+/* ....header style...  */
+.color{
+    color:#FF5400 ;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+    
+}
+header{
+    width: 90%;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 48px 0;
+}
+.nav-title{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.nav-title h3{
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+.nav-title img{
+    width: 80px;
+}
+.nav-manu {
+    width: 50%;
+display: flex;
+justify-content: space-between;
+}
+.nav-manu a{
+    text-decoration: none;
+    color:#424247 ;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.H-banner{
+    background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.H-banner h2{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    margin-top: 106px;
+    margin-bottom: 24px;
+}
+.H-banner p{
+    width: 60%;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 64px;
+}
+.h-option{
+    width: 70%;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin-bottom: 106px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#fa-down{
+    transform: rotate(90deg);
+}
+.btn-1 , .btn-2, .btn-3 {
+    background: #FFF;
+    border-radius: 8px;
+    width: 174px;
+    height: 52px;
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 16px ;
+    border: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.btn-4{
+    width: 174px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+

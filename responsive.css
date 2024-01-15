@@ -1,0 +1,23 @@
+@media screen and (max-width:600px) {
+
+    .H-banner h2{
+        font-size: 22px;
+    }
+    .H-banner p{
+        font-size: 14px;
+        width: 80%;
+    }
+    .h-option{
+        width: 80%;
+        margin-bottom: 60px;
+        flex-direction: column;
+        gap:16PX ;
+    
+    }
+    .btn-1 , .btn-2, .btn-3{
+        width: 255px;
+    }
+    .btn-4{
+        width: 255px;
+    }
+}
