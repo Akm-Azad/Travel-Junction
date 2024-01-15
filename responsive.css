@@ -20,4 +20,10 @@
     .btn-4{
         width: 255px;
     }
+    .popular-tours{
+        flex-direction: column;
+    }
+    .popular-tours-content, .popular-tours-img{
+        width: 100%; 
+    }
 }

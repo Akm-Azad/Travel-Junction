@@ -114,5 +114,43 @@ justify-content: space-between;
     cursor: pointer;
 }
 
+/* popular-tours style  */
+.popular-tours{
+    width: 90%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;   
+
+}
+
+.popular-tours-content, .popular-tours-img{
+    width: 50%;
+}
+
+.popular-tours-img img{
+    width: 100%;
+}
+.popular-tours-content h2{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+
+}
+.popular-tours-content p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.popular-tours-content li{
+    margin: 22px 22px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
 
 
