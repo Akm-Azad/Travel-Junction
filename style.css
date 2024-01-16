@@ -1,6 +1,7 @@
 *{
 margin: 0;
 padding: 0;
+box-sizing: border-box;
 }
 /* ....header style...  */
 .color{
@@ -124,33 +125,127 @@ justify-content: space-between;
 
 }
 
-.popular-tours-content, .popular-tours-img{
+.populars-tour-content, .populars-tour-img{
     width: 50%;
 }
 
-.popular-tours-img img{
+.populars-tour-img img{
     width: 100%;
 }
-.popular-tours-content h2{
+.populars-tour-content h2{
     color: #131318;
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 24px;
 
 }
-.popular-tours-content p{
+.populars-tour-content p{
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 24px;
 }
-.popular-tours-content li{
+.populars-tour-content li{
     margin: 22px 22px;
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
     font-weight: 400;
 
 }
+/* Destination Section style  */
 
+.destinations{
+    width: 90%;
+    margin: 100px auto;
+}
+.destinations-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+.destinations-content h2{
+    width: 40%;
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.destinations-content p{
+    width: 50%;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 44px;
+    }
+    
+    .destinations-img{
+        width: 100%;
+        display: grid;
+        gap: 24px;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .destinations-img img{
+       width: 100%;
+       height: 100%;
+       border-radius: 24px;
+       object-fit: cover;
+        
+    }
+    .grid-item-1{
+        grid-column: 1/ span 6;
+        grid-row:1/ span 1 ;
+        position: relative;
+
+    }
+    .grid-item-1 h2, .grid-item-2 h2, .grid-item-3 h2, .grid-item-4 h2, .grid-item-5 h2, .grid-item-6 h2, .grid-item-7 h2{
+        position: absolute;
+        top: 50%;
+        left: 45%;
+    }
+    .grid-item-2{
+        grid-column: 7/ span 6;
+        grid-row:1/ span 1 ;
+        position: relative;
+    }
+    .grid-item-3{
+        grid-column: 1/ span 4;
+        grid-row:2/ span 1;
+        position: relative;
+    }
+ 
+    .grid-item-4{
+        grid-column: 5/ span 5;
+        grid-row:2/ span 1 ;
+        position: relative;
+    }
+ 
+    .grid-item-5{
+        grid-column: 10/ span 3;
+        grid-row:2/ span 1;
+        position: relative;
+    }
+ 
+    .grid-item-6{
+        grid-column: 1/ span 5;
+        grid-row:3/ span 1;
+        position: relative;
+    }
+ 
+    .grid-item-7{
+        grid-column: 6/ span 7;
+        grid-row:3 / span 1;
+        position: relative;
+    }
+    .primary-text{
+        color: #FFF;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 700;
+    }
+ 
 
 
