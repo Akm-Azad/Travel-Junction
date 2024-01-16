@@ -1,185 +1,185 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-}
-/* ....header style...  */
-.color{
-    color:#FF5400 ;
-}
-body{
-    font-family: 'Mulish', sans-serif;
-    
-}
-header{
-    width: 90%;
-    margin: 0 auto;
-}
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 48px 0;
-}
-.nav-title{
-    width: 50%;
-    display: flex;
-    align-items: center;
-}
-.nav-title h3{
-    color: #131318;
-    font-size: 36px;
-    font-weight: 800;
-}
-.nav-title img{
-    width: 80px;
-}
-.nav-manu {
-    width: 50%;
-display: flex;
-justify-content: space-between;
-}
-.nav-manu a{
-    text-decoration: none;
-    color:#424247 ;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-}
-.H-banner{
-    background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(Images/Group\ 13\ \(1\)\ \(1\).png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    margin: 0 auto;
-    border-radius: 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.H-banner h2{
-    color: #FFF;
-    font-size: 64px;
-    font-weight: 800;
-    margin-top: 106px;
-    margin-bottom: 24px;
-}
-.H-banner p{
-    width: 60%;
-    color: #FFF;
-    font-size: 16px;
-    font-weight: 400;
-    margin-bottom: 64px;
-}
-.h-option{
-    width: 70%;
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.30);
-    margin-bottom: 106px;
-    padding: 16px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-#fa-down{
-    transform: rotate(90deg);
-}
-.btn-1 , .btn-2, .btn-3 {
-    background: #FFF;
-    border-radius: 8px;
-    width: 174px;
-    height: 52px;
-    color: rgba(19, 19, 24, 0.50);
-    text-align: center;
-    font-size: 16px;
-    font-weight: 400;
-    padding: 0 16px ;
-    border: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
-}
-.btn-4{
-    width: 174px;
-    height: 52px;
-    border: none;
-    border-radius: 8px;
-    background: #FF5400;
-    color: #FFF;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 700;
-    cursor: pointer;
-}
-
-/* popular-tours style  */
-.popular-tours{
-    width: 90%;
-    margin: 100px auto;
-    display: flex;
-    justify-content: space-between;
-    gap: 70px;   
-
-}
-
-.populars-tour-content, .populars-tour-img{
-    width: 50%;
-}
-
-.populars-tour-img img{
-    width: 100%;
-}
-.populars-tour-content h2{
-    color: #131318;
-    font-size: 40px;
-    font-weight: 800;
-    margin-bottom: 24px;
-
-}
-.populars-tour-content p{
-    color: rgba(19, 19, 24, 0.70);
-    font-size: 16px;
-    font-weight: 400;
-    margin-bottom: 24px;
-}
-.populars-tour-content li{
-    margin: 22px 22px;
-    color: rgba(19, 19, 24, 0.70);
-    font-size: 16px;
-    font-weight: 400;
-
-}
-/* Destination Section style  */
-
-.destinations{
-    width: 90%;
-    margin: 100px auto;
-}
-.destinations-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    gap: 24px;
-}
-.destinations-content h2{
-    width: 40%;
-    color: #131318;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 800;
-}
-.destinations-content p{
-    width: 50%;
-    color: rgba(19, 19, 24, 0.70);
-    text-align: center;
-    font-size: 16px;
-    font-weight: 400;
-    margin-bottom: 44px;
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     }
+    /* ....header style...  */
+    .color{
+        color:#FF5400 ;
+    }
+    body{
+        font-family: 'Mulish', sans-serif;
+        
+    }
+    header{
+        width: 90%;
+        margin: 0 auto;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 48px 0;
+    }
+    .nav-title{
+        width: 50%;
+        display: flex;
+        align-items: center;
+    }
+    .nav-title h3{
+        color: #131318;
+        font-size: 36px;
+        font-weight: 800;
+    }
+    .nav-title img{
+        width: 80px;
+    }
+    .nav-manu {
+        width: 50%;
+    display: flex;
+    justify-content: space-between;
+    }
+    .nav-manu a{
+        text-decoration: none;
+        color:#424247 ;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .H-banner{
+        background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(Images/Group\ 13\ \(1\)\ \(1\).png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .H-banner h2{
+        color: #FFF;
+        font-size: 64px;
+        font-weight: 800;
+        margin-top: 106px;
+        margin-bottom: 24px;
+    }
+    .H-banner p{
+        width: 60%;
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 64px;
+    }
+    .h-option{
+        width: 70%;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+        margin-bottom: 106px;
+        padding: 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    #fa-down{
+        transform: rotate(90deg);
+    }
+    .btn-1 , .btn-2, .btn-3 {
+        background: #FFF;
+        border-radius: 8px;
+        width: 174px;
+        height: 52px;
+        color: rgba(19, 19, 24, 0.50);
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 0 16px ;
+        border: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+    }
+    .btn-4{
+        width: 174px;
+        height: 52px;
+        border: none;
+        border-radius: 8px;
+        background: #FF5400;
+        color: #FFF;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    /* popular-tours style  */
+    .popular-tours{
+        width: 90%;
+        margin: 100px auto;
+        display: flex;
+        justify-content: space-between;
+        gap: 70px;   
+
+    }
+
+    .populars-tour-content, .populars-tour-img{
+        width: 50%;
+    }
+
+    .populars-tour-img img{
+        width: 100%;
+    }
+    .populars-tour-content h2{
+        color: #131318;
+        font-size: 40px;
+        font-weight: 800;
+        margin-bottom: 24px;
+
+    }
+    .populars-tour-content p{
+        color: rgba(19, 19, 24, 0.70);
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 24px;
+    }
+    .populars-tour-content li{
+        margin: 22px 22px;
+        color: rgba(19, 19, 24, 0.70);
+        font-size: 16px;
+        font-weight: 400;
+
+    }
+    /* Destination Section style  */
+
+    .destinations{
+        width: 90%;
+        margin: 100px auto;
+    }
+    .destinations-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 24px;
+    }
+    .destinations-content h2{
+        width: 40%;
+        color: #131318;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 800;
+    }
+    .destinations-content p{
+        width: 50%;
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 44px;
+        }
     
     .destinations-img{
         width: 100%;
@@ -326,7 +326,142 @@ justify-content: space-between;
         grid-column: 2/ span 2;
         grid-row:2/ span 1;
     }
-    
- 
+    /* newslatter section  */
+    .news-latter{
+        width: 90%;
+        margin: 120px auto;
+        display: flex;
+        justify-content: space-between;
+        gap: 78px;
+    }
+    .news-input{
+        border-radius: 16px;
+        border: 2px solid #FF5400;
+        padding: 40px;
+    }
+    .news-input h2{
+        color: #131318;
+        font-size: 24px;
+        font-weight: 800;
+        margin-bottom: 16px;
+
+    }
+    .news-input , .news-img{
+        width: 50%;
+        
+    }
+    .news-img img{
+      width: 100%;
+    }
+    .news-input p{
+        width: 85%;
+        color: #5A5A5D;
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 48px;
+    }
+    .news-input input{
+        border: 0;
+        width: 90%;
+        border-radius: 8px;
+        background: rgba(19, 19, 24, 0.05);
+        margin-bottom: 16px;
+        color: rgba(19, 19, 24, 0.30);
+        font-size: 16px;
+        font-weight: 400;
+        padding:16px ;
+    }
+    .news-input button{
+        border-radius: 8px;
+        background: #FF5400;
+        border: 0;
+        width: 90%;
+        border-radius: 8px;
+        color: #FFF;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 800;
+        padding:14px ;
+        cursor: pointer;
+            }
+    .news-img{
+        position: relative;
+
+    }
+    .travel-com{
+        width: 324px;
+        height: 120px;
+        border-radius: 16px;
+        background: #FF5400;
+        padding: 24px;
+        position: absolute;
+        top:52%;
+        left: 49%;
+        transform: rotate(-32deg);
+    }
+    .travel-com p{
+        color: #FFF;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .travel-com h2{
+        color: #FFF;
+        font-size: 32px;
+        font-weight: 800;
+    }
+    /* footer section  */
+
+    footer{
+        background: rgba(19, 19, 24, 0.05);
+    }
+    .footer{
+        
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer-title{
+        font-size: 32px;
+        margin-top: 110px;
+        margin-bottom: 15px;
+        width: 100%;
+        justify-content: center;
+        
+    }
+    .footer-content{
+        width: 60%;
+        color: #5A5A5D;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 33px;
+    }
+    .footer-icon{
+        width: 15%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 70px;
+       
+
+    }
+    .f-hr{
+        width: 80%;
+        border: 2px solid rgb(167, 163, 155);
+        border-radius: 5px;
+        margin-bottom: 50px;
+
+    }
+    .f-end{
+        color: #131318;
+        font-size: 16px;
+        font-weight: 300;
+        margin-bottom: 110px;
+    }
+
 
 

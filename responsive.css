@@ -69,5 +69,47 @@
    .card-3{
     grid-row:3/span 1 ;
    }
- 
+   /* news-latter section  */
+   .news-latter{
+    flex-direction: column;
+   }
+   .news-input , .news-img{
+    width: 100%;
+    }
+    .travel-com{
+        width: 220px;
+        height: 60px;
+        padding: 12px;
+        top:50%;
+        left: 39%;
+        transform: rotate(-32deg);
+    }
+    .travel-com p{
+        font-size: 12px;
+    }
+    .travel-com h2{
+        font-size: 16px;
+    }
+    /* footer section  */
+
+    .footer-title{
+        font-size: 18px;
+    }
+    .footer-content{
+        width: 100%;
+        font-size: 14px;
+    }
+    .footer-icon{
+        width: 40%;
+        margin-bottom: 50px; 
+    }
+    .f-hr{
+        border: 1px solid rgb(167, 163, 155);
+    }
+    .f-end{
+        font-size: 12px;
+        margin-bottom: 100px;
+    }
+
+
 }
