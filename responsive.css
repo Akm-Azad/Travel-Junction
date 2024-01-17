@@ -1,5 +1,19 @@
 @media screen and (max-width:600px) {
+
 /* header banner  */
+    .hamburger{
+        font-size: 40px;
+        display: block;
+    } 
+    .nav-title h3{
+        font-size: 21px;
+    }
+    .nav-title{
+        width: 80%;
+    }
+    .nav-manu{
+        display: none;
+    }
     .H-banner h2{
         font-size: 22px;
     }
